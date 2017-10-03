@@ -1,0 +1,21 @@
+* {font-family: 'Raleway', sans serif;}
+#home {
+text-align:center;
+background: black;
+color: lightgrey;
+}
+header {
+}
+.content {
+position: relative;
+display: flex;
+width: 960px;
+}
+.skewed {
+transform: skewY(-40deg);
+background: crimson;
+height: 100%;
+width: 100%;
+position: absolute;
+}
+
