@@ -31,13 +31,16 @@ h1, h2 {
 h2 {
   color: #777;
 }
-
 ul {
   margin: 0;
 }
 a {
   text-decoration: none;
   color: crimson;
+}
+u {
+  text-decoration: none;
+  color: gold;
 }
 .about {
   color: crimson;
@@ -68,5 +71,8 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
   .container {
     font-size: 25px;
+  }
+  h1 {
+    font-size: 2.5em;
   }
 }
